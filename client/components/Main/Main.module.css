@@ -1,0 +1,20 @@
+.content {
+    display: grid;
+    grid-template-columns: auto 75%;
+    column-gap: 10px;
+}
+
+.text {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    font-size: 32px;
+    font-weight: 700;
+    color: #8395db;
+    justify-content: center;
+}
+
+.tabTitle {
+    display: flex;
+    padding: 0 4px;
+}
