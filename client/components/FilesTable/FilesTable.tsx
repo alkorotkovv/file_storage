@@ -97,7 +97,7 @@ const FileTable:FC<IProps> = ({ selectedFolder }) => {
     }
     catch (err) {
       console.log(err)
-      message.error('Ошибка при скачивании файла');
+      message.error('Ошибка при открытии файла');
     }
   };
 
